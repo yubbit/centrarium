@@ -9,8 +9,8 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: the Hessian Matrix
-subtitle: "A catalog of yubbit's thoughts"
+title: the Hessian 
+subtitle: "Notes and bits made during my studies and experiments"
 email: rsformoso@gmail.com
 name: yubbit
 description: >
@@ -20,6 +20,7 @@ description: >
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yubbit.github.io" # the base hostname & protocol for your site
+# Image by Aleksandar Pasaric, taken from https://www.pexels.com/photo/woman-walking-in-the-street-during-night-time-1134166/
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
 
