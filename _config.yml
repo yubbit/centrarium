@@ -14,7 +14,7 @@ subtitle: "Notes and bits made during my studies and experiments"
 email: rsformoso@gmail.com
 name: yubbit
 description: >
-  A catalog of yubbit's thoughts
+  Notes and bits made during my studies and experiments
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -85,6 +85,6 @@ protocols:
 
     twitter_image: "/assets/logo.png"
 
-    os_repo: "https://github.com/bencentra/centrarium.com"
+    os_repo: "https://github.com/yubbit/yubbit.github.io"
     os_rcs_type: "git"
-    os_src: "git@github.com:bencentra/centrarium.com.git"
+    os_src: "git@github.com:yubbit/yubbit.github.io.git"
