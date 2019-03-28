@@ -9,7 +9,7 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: the Hessian 
+title: runTimeRecreation
 subtitle: "Notes and bits made during my studies and experiments"
 email: rsformoso@gmail.com
 name: yubbit
