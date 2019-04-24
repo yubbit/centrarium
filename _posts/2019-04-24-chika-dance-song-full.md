@@ -9,6 +9,8 @@ excerpt_separator: <!--more-->
 
 [Click to watch on YouTube](https://www.youtube.com/watch?v=TDHQaq3D5vU). Chika best girl.
 
-[![Kaguya-sama: Love is War \| ED 2 FULL \| Chika Dance Song - Chikatto Chika Chika](https://img.youtube.com/vi/TDHQaq3D5vU/0.jpg)](https://www.youtube.com/watch?v=TDHQaq3D5vU)
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TDHQaq3D5vU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
 <!--more-->
