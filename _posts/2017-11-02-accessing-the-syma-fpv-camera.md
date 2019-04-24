@@ -4,6 +4,7 @@ title: "Accessing the Syma FPV Camera"
 date: 2017-11-02
 author: yubbit
 categories: ['Quadcopter', 'Computer Vision']
+excerpt_separator: <!--more-->
 ---
 
 I was fiddling with a cheap SymaX5HW quadcopter that I got for $40. It advertises itself as having FPV capabilities, and comes with an app you can install on your phone to receive the video feed.
@@ -15,6 +16,8 @@ Opening this brings up an authentication dialog box. Using `admin` as the userna
 Now I wanted to access this feed using Python, but found that I couldn't, even if it worked fine in Firefox. After checking the headers, it turns out that the camera uses digest authentication, which Firefox could resolve automatically. You can read up about it [here](https://en.wikipedia.org/wiki/Digest_access_authentication).
 
 As it turns out, Python's standard library has tools for dealing with digest authentication, so getting access to the video stream is as simple as running this:
+
+<!--more-->
 
 ```python
 import requests

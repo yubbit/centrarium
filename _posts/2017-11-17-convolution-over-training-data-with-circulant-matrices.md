@@ -4,13 +4,14 @@ title: "Convolution over training data with circulant matrices"
 date: 2017-11-17
 author: yubbit
 categories: ['Mathematics', 'Computer Vision']
+excerpt_separator: <!--more-->
 ---
 
 Let's say we want to train a linear classifier for the following one-dimensional "image"
 
 $$t = \begin{bmatrix}t_1 & t_2 & t_3 & t_4 & t_5\end{bmatrix}$$
 
-We want to train the clasifier such that it returns as positive if applied over the region $$\begin{bmatrix}t_3 & t_4 & t_5\end{bmatrix}$$, and negative otherwise. In this case, we only have three valid samples in our training data: $$\begin{bmatrix}t_1 & t_2 & t_3\end{bmatrix}$$, $$\begin{bmatrix}t_2 & t_3 & t_4\end{bmatrix}$$, and $$\begin{bmatrix}t_3 & t_4 & t_5\end{bmatrix}$$.
+We want to train the clasifier such that it returns as positive if applied over the region <!--more--> $$\begin{bmatrix}t_3 & t_4 & t_5\end{bmatrix}$$, and negative otherwise. In this case, we only have three valid samples in our training data: $$\begin{bmatrix}t_1 & t_2 & t_3\end{bmatrix}$$, $$\begin{bmatrix}t_2 & t_3 & t_4\end{bmatrix}$$, and $$\begin{bmatrix}t_3 & t_4 & t_5\end{bmatrix}$$.
 
 Training our linear model on this data would then look like:
 
