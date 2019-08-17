@@ -11,7 +11,7 @@ exclude:
 # Site settings
 title: runTimeRecreation
 subtitle: "yubbit's rather unstructured blog"
-email: rsformoso@gmail.com
+email: rsformoso(at)gmail.com
 name: yubbit
 description: >
   Notes and bits made during my studies and experiments
@@ -69,7 +69,7 @@ social:
 
   - name: LinkedIn
     icon: linkedin
-    username: Rafael Formoso
+    username: yubbit
     url: https://www.linkedin.com/in/rafaelformoso/
     desc: Connect with me on LinkedIn
     share: true
